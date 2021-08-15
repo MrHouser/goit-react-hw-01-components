@@ -1,0 +1,40 @@
+.online {
+  background-color: green;
+}
+
+.offline {
+  background-color: red;
+}
+
+.status {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.list {
+  height: fit-content;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.item {
+  display: flex;
+  box-shadow: var(--shadow);
+  margin-bottom: 10px;
+  align-items: center;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+}
+
+.avatar {
+  border: 1px solid #c5e9ed;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.name {
+  font-weight: 700;
+}
