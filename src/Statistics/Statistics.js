@@ -1,6 +1,5 @@
 import s from './Statistics.module.css';
 import PropTypes from 'prop-types';
-import { doc } from 'prettier';
 
 const Statistics = ({ title, stats }) => {
   return (
